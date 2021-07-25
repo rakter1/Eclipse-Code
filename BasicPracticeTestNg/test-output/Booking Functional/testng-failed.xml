@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Booking Functional]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="r12345"/>
+    <parameter name="username " value="ruma123"/>
+    <parameter name="url" value="https://www.spicejet.com/"/>
+    <classes>
+      <class name="booking.Parameterdemo">
+        <methods>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- booking.Parameterdemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Booking Functional] -->

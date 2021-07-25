@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ui.VerifyTitleTest"/>
+      <class name="com.ui.BeforeAndAfterClassDemo"/>
+      <class name="com.ui.DataProviderDemoTest"/>
+      <class name="com.ui.DemoBeforeGroupTest"/>
+      <class name="com.ui.GroupDemoTest"/>
+      <class name="com.ui.HardAssert"/>
+      <class name="com.ui.DataProviderTestCaseSingle"/>
+      <class name="com.ui.SauceDemo"/>
+      <class name="com.ui.SkippedDemoTest"/>
+      <class name="com.ui.CommonDataSetUp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

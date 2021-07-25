@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Method name is -reporterTest1]]>
+    </line>
+    <line>
+      <![CDATA[This is test1]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is--1]]>
+    </line>
+    <line>
+      <![CDATA[Method name is -reporterTest2]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is--1]]>
+    </line>
+    <line>
+      <![CDATA[Method name is -reporterTest3]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is--1]]>
+    </line>
+    <line>
+      <![CDATA[Method name is -reporterTest4]]>
+    </line>
+    <line>
+      <![CDATA[Status of execution is--1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-07-20T06:08:33 EDT" name="Reporting Suite" finished-at="2021-07-20T06:08:33 EDT" duration-ms="685">
+    <groups>
+    </groups>
+    <test started-at="2021-07-20T06:08:33 EDT" name="Test" finished-at="2021-07-20T06:08:33 EDT" duration-ms="685">
+      <class name="report.TestNGReportDemo">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:report.TestNGReportDemo@6a78afa0]" started-at="2021-07-20T06:08:31 EDT" name="launchBrowser" finished-at="2021-07-20T06:08:33 EDT" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="reporterTest1()[pri:0, instance:report.TestNGReportDemo@6a78afa0]" started-at="2021-07-20T06:08:33 EDT" name="reporterTest1" finished-at="2021-07-20T06:08:33 EDT" duration-ms="655" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is -reporterTest1]]>
+            </line>
+            <line>
+              <![CDATA[This is test1]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is--1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporterTest1 -->
+        <test-method signature="reporterTest2()[pri:0, instance:report.TestNGReportDemo@6a78afa0]" started-at="2021-07-20T06:08:33 EDT" name="reporterTest2" finished-at="2021-07-20T06:08:33 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is -reporterTest2]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is--1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporterTest2 -->
+        <test-method signature="reporterTest3()[pri:0, instance:report.TestNGReportDemo@6a78afa0]" started-at="2021-07-20T06:08:33 EDT" name="reporterTest3" finished-at="2021-07-20T06:08:33 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is -reporterTest3]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is--1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporterTest3 -->
+        <test-method signature="reporterTest4()[pri:0, instance:report.TestNGReportDemo@6a78afa0]" started-at="2021-07-20T06:08:33 EDT" name="reporterTest4" finished-at="2021-07-20T06:08:33 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Method name is -reporterTest4]]>
+            </line>
+            <line>
+              <![CDATA[Status of execution is--1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reporterTest4 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:report.TestNGReportDemo@6a78afa0]" started-at="2021-07-20T06:08:33 EDT" name="closeBrowser" finished-at="2021-07-20T06:08:37 EDT" duration-ms="4192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- report.TestNGReportDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Reporting Suite -->
+</testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Booking.Functionality Suite">
+  <test name="BookingTest">
+    <classes>
+      <class name="booking.BookingHotel">
+     
+      <methods>
+      <include name="bookHotel_checkIn"></include>
+      </methods>
+      
+      </class>
+      
+      <class name="booking.BookHolidayPackage">
+      <methods>
+      <include name="bookHolidayPackage_return"></include>
+      </methods>
+      </class>
+      
+      <class name="booking.BookFlight">
+      <methods>
+     
+      <exclude name="file_Status_Testcase3"></exclude>
+      </methods>
+      </class>
+      
+      <class name="booking.FlightStatus"/>
+    </classes>
+  </test> <!-- BookingTest -->
+</suite> <!-- Booking.Functionality Suite -->
